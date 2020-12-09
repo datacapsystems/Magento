@@ -26,31 +26,31 @@ Here you'll find the settings to configure the Datacap Magneto plugin.
 
 1. Enabled
 
-This option enables/disables the Datacap payment method for the store.
+   This option enables/disables the Datacap payment method for the store.
 
 2. Title
 
-The display name of the Datacap payment option presented to the customer at checkout.
+   The display name of the Datacap payment option presented to the customer at checkout.
 
 3. Environment
 
-Either Sandbox (test) and Production
+   Either Sandbox (test) and Production
 
 4. Datacap Token Key and Ecommerce MID
 
-Credentials provided by Datacap for Ecommerce processing.
+   Credentials provided by Datacap for Ecommerce processing.
 
 5. Payment Action
 
-Choose either:
+   Choose either:
 
-  5. Authorize
+   5. Authorize
 
-  The amount is authorized during checkout, but captured when the invoice is generated in the Admin Panel.
+      The amount is authorized during checkout, but captured when the invoice is generated in the Admin Panel.
 
-  5. Authorize and Capture
+   5. Authorize and Capture
 
-  The amount is authorized and captured during checkout, and an invoice is created automatically.
+      The amount is authorized and captured during checkout, and an invoice is created automatically.
 
 ## Capture an Authorized Amount / Generate an Invoice
 
