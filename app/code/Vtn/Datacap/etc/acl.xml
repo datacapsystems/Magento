@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Vtn_Datacap 
+ * @category VTN
+ * @package Vtn_Datacap
+ * @version 1.0.0
+ * @author VTNetzwelt
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Reports::report">
+                    <resource id="Magento_Reports::salesroot">
+                        <resource id="Vtn_Datacap::settlement_report" title="Datacap Report" translate="title" sortOrder="80" />
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

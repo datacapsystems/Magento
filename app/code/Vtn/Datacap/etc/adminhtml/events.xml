@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Vtn_Datacap Events
+ * @category VTN
+ * @package Vtn_Datacap
+ * @version 1.0.0
+ * @author VTNetzwelt
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch">
+        <observer instance="Vtn\Datacap\Observer\Controller\ActionPredispatch" name="Vtn_Datacap::controller_action_predispatch"/>
+    </event>
+</config>

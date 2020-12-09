@@ -1,0 +1,5 @@
+cc_type,"Credit Card Type"
+cc_number,"Credit Card Number"
+datacapPaymentCCNumber,"Credit Card Number"
+datacapPaymentCCType,"Credit Card Type"
+datacapPaymentStatus,"Status"
