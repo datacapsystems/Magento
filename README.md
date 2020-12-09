@@ -44,11 +44,11 @@ Here you'll find the settings to configure the Datacap Magneto plugin.
 
    Choose either:
 
-   5. Authorize
+   1. Authorize
 
       The amount is authorized during checkout, but captured when the invoice is generated in the Admin Panel.
 
-   5. Authorize and Capture
+   1. Authorize and Capture
 
       The amount is authorized and captured during checkout, and an invoice is created automatically.
 
