@@ -75,3 +75,7 @@ To issue a refund, you first need an invoice. Follow the steps above to generate
 5. Click the Refund button to issue a refund to the payment card. 
 
 ![Magento root dir](images/invoice.JPG)
+
+## Report bugs
+
+If you encounter any bugs or issues with the latest version of the Datacap Magento plugin, please report them to us by opening a [GitHub Issue](https://github.com/datacapsystems/Magento/issues)!
